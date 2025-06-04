@@ -2,9 +2,18 @@
 Public-facing repository for various MRI pulse sequences developed by M Budde at the Medical College of Wisconsin. 
 This repository is a newer extension of a previous OSF sharing site: https://osf.io/ngu4a/
 
+Pulse sequence code and binaries are contained within individual private repositories (see discussion: https://github.com/mdbudde/mcw_Preclinical_MRIsequences/discussions/1)
+
 
 List of sequences:
-DWIWave: Diffusion encoding with arbitrary waveforms. Both EPI and spin-echo versions are available. See the associated quickstart for installation and detailed usage. Also includes:
+**DWIWave: 
+Diffusion encoding with arbitrary waveforms. 
+Sequence variants available: 
+mcw_DWWaveEPIv7 (PV6, PV7, PV360.1.1)
+mcw_DWWaveStanv7 (PV6, PV7)
+- Original shared sequences for arbitrary diffusion gradient waveforms selectable through the user interface. This version has been used by many investigators and updated extensively based on user feedback.
+mcw_DWWaveEPIv8 (PV6)
+- New variant that replaces the user interface with a formatted text file for full customization of gradient shapes, amplitude, direction. It has not been tested beyond simulations and is available to users wishing for more flexibility but may require careful evaluation of the acquisition and results. 
 
 
 dtiEpi_GRFat: DTI-EPI version with 2 additional options:
