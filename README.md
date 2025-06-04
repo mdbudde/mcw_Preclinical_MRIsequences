@@ -9,10 +9,13 @@ List of sequences:
 **DWIWave: 
 Diffusion encoding with arbitrary waveforms. 
 Sequence variants available: 
-mcw_DWWaveEPIv7 (PV6, PV7, PV360.1.1)
-mcw_DWWaveStanv7 (PV6, PV7)
+- mcw_DWWaveEPIv7_PV6 
+- mcw_DWWaveEPIv7_PV7
+- mcw_DWWaveEPIv7_PV360.1.1
+- mcw_DWWaveStanv7_PV6
+- mcw_DWWaveStanv7_PV7
 - Original shared sequences for arbitrary diffusion gradient waveforms selectable through the user interface. This version has been used by many investigators and updated extensively based on user feedback.
-mcw_DWWaveEPIv8 (PV6)
+mcw_DWWaveEPIv8_PV6
 - New variant that replaces the user interface with a formatted text file for full customization of gradient shapes, amplitude, direction. It has not been tested beyond simulations and is available to users wishing for more flexibility but may require careful evaluation of the acquisition and results. 
 
 
