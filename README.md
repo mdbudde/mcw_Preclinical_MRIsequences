@@ -14,6 +14,7 @@ Original shared sequences for arbitrary diffusion gradient waveforms selectable 
 - [mcw_DWWaveEPIv7_PV360.1.1](https://github.com/mdbudde/mcw_DWEpiWavev7_PV360.1.1)
 - mcw_DWWaveStanv7_PV6
 - mcw_DWWaveStanv7_PV7
+- Please let me know if you are interested in collaborating on sequences for newer PV360 versions (v3.6). It is generally trivial to update methods, but without direct access for compilation and testing I don't want to release untested code. 
 
 New variant that replaces the user interface with a formatted text file for full customization of gradient shapes, amplitude, direction. It has not been tested beyond simulations and is available to users wishing for more flexibility but may require careful evaluation of the acquisition and results. 
 - [mcw_DWWaveEPIv8_PV6](https://github.com/mdbudde/mcw_DWEpiWavev8)
