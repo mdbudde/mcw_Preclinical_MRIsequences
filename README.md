@@ -1,6 +1,6 @@
 # mcw_Preclinical_MRIsequences
 Public-facing repository for various MRI pulse sequences developed by M Budde at the Medical College of Wisconsin. 
-This repository is a newer extension of a previous [OSF sharing site](https://osf.io/ngu4a/)
+This repository is replacement for the previous [OSF sharing site](https://osf.io/ngu4a/)
 
 Code and binaries are contained within individual private repositories.
 
