@@ -9,7 +9,7 @@ For access to individual sequences and versions, please follow the instructions 
 
 ## DWWave: Diffusion encoding with arbitrary waveforms. 
 Original shared sequences for arbitrary diffusion gradient waveforms selectable through the user interface. This version has been used by 40+ investigators and updated extensively based on user feedback.
-- mcw_DWWaveEPIv7_PV6 
+- [mcw_DWWaveEPIv7_PV6](https://github.com/mdbudde/mcw_DWEpiWavev7_PV6) 
 - mcw_DWWaveEPIv7_PV7
 - mcw_DWWaveEPIv7_PV360.1.1
 - mcw_DWWaveStanv7_PV6
