@@ -20,24 +20,20 @@ New variant that replaces the user interface with a formatted text file for full
 - [mcw_DWWaveEPIv8_PV6](https://github.com/mdbudde/mcw_DWEpiWavev8)
 
 
-## dtiEpi_GRFat: DTI-EPI 
-Added 2 additional options:
-gradient reversal fat saturation for improved fat suppression
-Reversed blip phase encoding for distortion correction
-
-
 ## DWBIR-RARE: Diffusion prepared Fast Spin Echo (RARE). 
 A B1-insensitive adiabatic module (BIR4 or BIR8) with diffusion preparation under different motion-compensation conditions (M0, M1, M2) is coupled with a fast spin echo readout to minimize motion and susceptibility artifacts. Pulses are included and custom gradient tables can be loaded from a file. Lee SL et al. MRM 2021
-
+- Please inquire if interested.
 
 ## vfaRARE: variable flip angle RARE sequence
 High resolution, efficient 3D imaging (Note more recent versions of Paravision include their implementation of this method).
 Distortion-free imaging
 100+ echoes per excitation.
 T2 contrast
+- Please inquire if interested.
 
 
 
 ## pCASL: Pseudocontinuous ASL sequences (Binary version only)
 A RARE (FSE) version is available with an embarrassingly large number of options and settings that were used for optimization and various experiments. Besides the typical settings for labelling settings/durations/delays, it includes Hadamard options, many different background suppression options, triggered labelling/delays, dynamic shimming, multiple references for M0/T1 mapping, vessel and/or spatial suppressions. Only the single-slice 2D setup has been well-tested, although others are available.
 The FLASH version is similar but with fewer options, but also includes multiple repetitions or movie mode, with the same k-space line acquired multiple times after the labeling for dynamic studies.
+- Please inquire if interested.
