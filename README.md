@@ -15,9 +15,12 @@ Original shared sequences for arbitrary diffusion gradient waveforms selectable 
 - mcw_DWWaveStanv7_PV6
 - mcw_DWWaveStanv7_PV7
 - Please let me know if you are interested in collaborating on sequences for newer PV360 versions (v3.6). It is generally trivial to update methods, but without direct access for compilation and testing I don't want to release untested code. 
+![image](https://github.com/user-attachments/assets/44f55daf-435b-4240-b972-82a5387f5f6d)
+
 
 New variant that replaces the user interface with a formatted text file for full customization of gradient shapes, amplitude, direction. It has not been tested beyond simulations and is available to users wishing for more flexibility but may require careful evaluation of the acquisition and results. 
 - [mcw_DWWaveEPIv8_PV6](https://github.com/mdbudde/mcw_DWEpiWavev8)
+![image](https://github.com/user-attachments/assets/3f6a6ab2-50d8-4aa0-9869-1b6bee326687)
 
 
 ## DWBIR-RARE: Diffusion prepared Fast Spin Echo (RARE). 
