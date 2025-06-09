@@ -18,7 +18,7 @@ Original shared sequences for arbitrary diffusion gradient waveforms selectable 
 
 
 - [mcw_DWEpiWavev8_PV6](https://github.com/mdbudde/mcw_DWEpiWavev8)
-  New variant that replaces the user interface with a formatted text file for full customization of gradient shapes, amplitude, direction. It has not been tested beyond simulations and is available to users wishing for more flexibility but may require careful evaluation of the acquisition and results. 
+  New variant that replaces the user interface with a formatted text file for full customization of gradient shapes, amplitude, direction. It has been tested in simulations and is available to users desiring for more flexibility but may require careful evaluation of the acquisition and results. 
 ![image](https://github.com/user-attachments/assets/3f6a6ab2-50d8-4aa0-9869-1b6bee326687)
 
 ```
