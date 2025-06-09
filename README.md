@@ -7,17 +7,17 @@ This repository is replacement for the previous [OSF sharing site](https://osf.i
 
 ## DWWave: Diffusion encoding with arbitrary waveforms. 
 Original shared sequences for arbitrary diffusion gradient waveforms selectable through the user interface. This version has been used by 40+ investigators and updated extensively based on user feedback.
-- [mcw_DWWaveEPIv7_PV6](https://github.com/mdbudde/mcw_DWEpiWavev7_PV6) 
-- mcw_DWWaveEPIv7_PV7
-- [mcw_DWWaveEPIv7_PV360.1.1](https://github.com/mdbudde/mcw_DWEpiWavev7_PV360.1.1)
+- [mcw_DWEpiWavev7_PV6](https://github.com/mdbudde/mcw_DWEpiWavev7_PV6) 
+- mcw_DWEpiWavev7_PV7
+- [mcw_DWEpiWavev7_PV360.1.1](https://github.com/mdbudde/mcw_DWEpiWavev7_PV360.1.1)
 - mcw_DWWaveStanv7_PV6
 - mcw_DWWaveStanv7_PV7
-- [mcw_DWWaveStanv7_PV360.3.6](https://github.com/mdbudde/mcw_DWEpiWavev7_PV360.3.6)   Programmed but uncompiled/untested. Please let me know if you are interested in collaborating; I don't have direct access for compilation and testing. 
+- [mcw_DWEpiWavev7_PV360.3.6](https://github.com/mdbudde/mcw_DWEpiWavev7_PV360.3.6)   Programmed but uncompiled/untested. Please let me know if you are interested in collaborating; I don't have direct access for compilation and testing. 
 ![image](https://github.com/user-attachments/assets/44f55daf-435b-4240-b972-82a5387f5f6d)
 
 
 
-- [mcw_DWWaveEPIv8_PV6](https://github.com/mdbudde/mcw_DWEpiWavev8)
+- [mcw_DWEpiWavev8_PV6](https://github.com/mdbudde/mcw_DWEpiWavev8)
   New variant that replaces the user interface with a formatted text file for full customization of gradient shapes, amplitude, direction. It has not been tested beyond simulations and is available to users wishing for more flexibility but may require careful evaluation of the acquisition and results. 
 ![image](https://github.com/user-attachments/assets/3f6a6ab2-50d8-4aa0-9869-1b6bee326687)
 
