@@ -4,7 +4,7 @@ This repository is replacement for the previous [OSF sharing site](https://osf.i
 
 Code and binaries are contained within individual private repositories.
 
-For access to individual sequences and versions, please follow the instructions in this [discussion](https://github.com/mdbudde/mcw_Preclinical_MRIsequences/discussions/1), or email mdbudde@mcw.edu.
+:bangbang: **To access sequences (private repositories), follow these [instructions](https://github.com/mdbudde/mcw_Preclinical_MRIsequences/discussions/1), or email mdbudde@mcw.edu.</ins>** :bangbang:
 
 
 ## DWWave: Diffusion encoding with arbitrary waveforms. 
