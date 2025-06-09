@@ -12,7 +12,7 @@ Original shared sequences for arbitrary diffusion gradient waveforms selectable 
 - [mcw_DWWaveEPIv7_PV360.1.1](https://github.com/mdbudde/mcw_DWEpiWavev7_PV360.1.1)
 - mcw_DWWaveStanv7_PV6
 - mcw_DWWaveStanv7_PV7
-- [mcw_DWWaveStanv7_PV7_PV360.3.6](https://github.com/mdbudde/mcw_DWEpiWavev7_PV360.3.6)   Programmed but uncompiled/untested. Please let me know if you are interested in collaborating; I don't have direct access for compilation and testing. 
+- [mcw_DWWaveStanv7_PV360.3.6](https://github.com/mdbudde/mcw_DWEpiWavev7_PV360.3.6)   Programmed but uncompiled/untested. Please let me know if you are interested in collaborating; I don't have direct access for compilation and testing. 
 ![image](https://github.com/user-attachments/assets/44f55daf-435b-4240-b972-82a5387f5f6d)
 
 
