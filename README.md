@@ -56,6 +56,11 @@ num_samples 1000
 0.000000 0.000000 0.000000
 0.010851 0.000000 0.007673
 ...
+
+### OUTPUT: Will write scan info (shape/rotations/amplitudes, or b-matrices?) at the bottom of this file when the sequence runs.
+#To facilitite processing without extracting from parameter files. 
+#NUM SHAPE1_ID SHAPE2_ID AMP R00 R01 R02 R11 R12 R22
+
 ```
 
 ## DWBIR-RARE: Diffusion prepared Fast Spin Echo (RARE). 
