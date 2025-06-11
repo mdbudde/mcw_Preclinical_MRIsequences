@@ -22,22 +22,31 @@ Original shared sequences for arbitrary diffusion gradient waveforms selectable 
 <img width="550" alt="image" src="https://github.com/user-attachments/assets/3f6a6ab2-50d8-4aa0-9869-1b6bee326687" />
 
 ```
-# DWITABLE: list of scans/images with shape, direction, and amplitude for each
-# NUM SHAPE1_ID SHAPE2_ID DIR_ID AMP
+# DWITABLE: list of scans/images with shape, direction, and amplitude for each waveform and additional TE and/or DW time/mixing delays.
+# NUM SHAPE1_ID SHAPE2_ID DIR1_ID DIR2_ID AMP1 AMP2 TEDEL DWSEPDEL 
   # b=0
-  1   1   1    1     0
-  # different directions
-  2   1   1    2     80
-  # different amplitudes
-  3   1   1    2     20
-  # different shapes
-  4   2   2    1     80
+  1  1   1   1  1   0  0 0 0
+  # different directions, same for shape1,2
+  2  1   1   2  2  80 80 0 0
+  # different directions, different for shape1,2
+  3  1   1   3  1  80 80 0 0
+  # different amplitudes per-shape
+  4  1   1   1  1  20 80 0 0
+  # different shapes, same for shape1,2
+  5  2   2   1  1  80 80 0 0
+  # different shapes, different for shape1,2 (same n points)
+  6  1   2   1  1  80 80  0 0
+  # different TEs
+  7  1   1   1  1  80 80 0.04 0
+  # different diffusion times/separation
+  8  1   1   1  1  80 80  0 0.04
 ...
 ### DIRECTIONS: list of directions that are indexed from dwitable
 # DIR_ID X Y Z 
   1 0 0 1
   2 1 0 0
   3 1 1 0
+  4 0 0 -1
   ...
 ### SHAPES: gradient waveforms are stored as arrays in the same file
 shape_id 1
@@ -57,9 +66,9 @@ num_samples 1000
 0.010851 0.000000 0.007673
 ...
 
-### OUTPUT: Will write scan info (shape/rotations/amplitudes, or b-matrices?) at the bottom of this file when the sequence runs.
-#To facilitite processing without extracting from parameter files. 
-#NUM SHAPE1_ID SHAPE2_ID AMP R00 R01 R02 R11 R12 R22
+### OUTPUT: Will write scan info (shape/rotations/amplitudes) at the bottom of this file when the sequence runs.
+#File will be saved along with 
+#NUM SHAPE1_ID SHAPE2_ID AMP1 AMP2 ACTUALTE ACTUALDWSEP S1R00 S1R01 S1R02 S1R11 S1R12 S1R22 S2R00 S2R01 S2R02 S2R11 S2R12 S2R22
 
 ```
 ## Bruker_pulseq: (Under development) Pulseq interpreter. 
