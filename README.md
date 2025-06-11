@@ -16,9 +16,9 @@ Original shared sequences for arbitrary diffusion gradient waveforms selectable 
 <img width="550" alt="image" src="https://github.com/user-attachments/assets/44f55daf-435b-4240-b972-82a5387f5f6d" />
 
 
-
+## DWWave: Extreme customized diffusion encoding with arbitrary waveforms. 
 - [mcw_DWEpiWavev8_PV6](https://github.com/mdbudde/mcw_DWEpiWavev8)
-  New variant that replaces the user interface with a formatted text file for full customization of gradient shapes, amplitude, direction. It has been tested in simulations and is available to users desiring for more flexibility but may require careful evaluation of the acquisition and results. 
+  New variant for control of DW gradient shape, amplitude, direction, separation/mixing, TE, TR **per-image** in a single scan. It has been tested in simulations and is available to users desiring for more flexibility but may require careful evaluation of the acquisition and results. 
 <img width="900" alt="image" src="https://github.com/user-attachments/assets/f970e26a-faa9-473f-83f6-30e1225b9b9a" />
 
 ```
@@ -41,7 +41,7 @@ Original shared sequences for arbitrary diffusion gradient waveforms selectable 
   # different diffusion times/separation
   8  1   1   1  1  80 80  0 0.04
 ...
-### DIRECTIONS: list of directions that are indexed from dwitable
+### DIRECTIONS: list of directions indexed from dwitable
 # DIR_ID X Y Z 
   1 0 0 1
   2 1 0 0
