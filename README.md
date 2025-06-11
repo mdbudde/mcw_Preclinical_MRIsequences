@@ -19,7 +19,7 @@ Original shared sequences for arbitrary diffusion gradient waveforms selectable 
 
 - [mcw_DWEpiWavev8_PV6](https://github.com/mdbudde/mcw_DWEpiWavev8)
   New variant that replaces the user interface with a formatted text file for full customization of gradient shapes, amplitude, direction. It has been tested in simulations and is available to users desiring for more flexibility but may require careful evaluation of the acquisition and results. 
-<img width="550" alt="image" src="https://github.com/user-attachments/assets/3f6a6ab2-50d8-4aa0-9869-1b6bee326687" />
+<img width="900" alt="image" src="https://github.com/user-attachments/assets/f970e26a-faa9-473f-83f6-30e1225b9b9a" />
 
 ```
 # DWITABLE: list of scans/images with shape, direction, and amplitude for each waveform and additional TE and/or DW time/mixing delays.
@@ -67,8 +67,8 @@ num_samples 1000
 ...
 
 ### OUTPUT: Will write scan info (shape/rotations/amplitudes) at the bottom of this file when the sequence runs.
-#File will be saved along with 
-#NUM SHAPE1_ID SHAPE2_ID AMP1 AMP2 ACTUALTE ACTUALDWSEP S1R00 S1R01 S1R02 S1R11 S1R12 S1R22 S2R00 S2R01 S2R02 S2R11 S2R12 S2R22
+#File will be saved with raw data. 
+#NUM SHAPE1_ID SHAPE2_ID AMP1 AMP2 ACTUAL_TE ACTUAL_DWSEP S1R00 S1R01 S1R02 S1R11 S1R12 S1R22 S2R00 S2R01 S2R02 S2R11 S2R12 S2R22
 
 ```
 ## Bruker_pulseq: (Under development) Pulseq interpreter. 
