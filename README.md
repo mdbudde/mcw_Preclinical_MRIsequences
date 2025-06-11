@@ -16,7 +16,7 @@ Original shared sequences for arbitrary diffusion gradient waveforms selectable 
 <img width="550" alt="image" src="https://github.com/user-attachments/assets/44f55daf-435b-4240-b972-82a5387f5f6d" />
 
 
-## DWWave: Extreme customized diffusion encoding with arbitrary waveforms. 
+## DWWave: Fully customizable arbitrary diffusion encoding. 
 - [mcw_DWEpiWavev8_PV6](https://github.com/mdbudde/mcw_DWEpiWavev8)
   New variant for control of DW gradient shape, amplitude, direction, separation/mixing, TE, TR **per-image** in a single scan. It has been tested in simulations and is available to users desiring for more flexibility but may require careful evaluation of the acquisition and results. 
 <img width="900" alt="image" src="https://github.com/user-attachments/assets/f970e26a-faa9-473f-83f6-30e1225b9b9a" />
