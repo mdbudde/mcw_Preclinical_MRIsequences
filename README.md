@@ -77,8 +77,8 @@ Method based implementation of a pulseq interpretor for paravision. User-selecta
 
 ## DWBIR-RARE: Diffusion prepared Fast Spin Echo (RARE). 
 A B1-insensitive adiabatic module (BIR4 or BIR8) with diffusion preparation under different motion-compensation conditions (M0, M1, M2) is coupled with a fast spin echo readout to minimize motion and susceptibility artifacts. Pulses are included and custom gradient tables can be loaded from a file. [Lee SL et al. MRM 2021](https://pubmed.ncbi.nlm.nih.gov/33720450/)
-- Please inquire if interested.
-- <img width="550" alt="image" src="https://github.com/user-attachments/assets/26ecc9b5-8551-4ec4-b85b-3402847c09d1" />
+- [mcw_dwBIR_RAREv4_PV6](https://github.com/mdbudde/mcw_dwBIR_RAREv4_PV6).
+<img width="550" alt="image" src="https://github.com/user-attachments/assets/26ecc9b5-8551-4ec4-b85b-3402847c09d1" />
 
 ## vfaRARE: variable flip angle RARE sequence
 High resolution, efficient 3D imaging (Note more recent versions of Paravision include their implementation of this method).
@@ -86,7 +86,7 @@ Distortion-free imaging
 100+ echoes per excitation.
 T2 contrast
 - Please inquire if interested.
-- <img width="550" alt="image" src="https://github.com/user-attachments/assets/c87d5f32-617c-4d8e-af98-2faf4e160b5a" />
+<img width="550" alt="image" src="https://github.com/user-attachments/assets/c87d5f32-617c-4d8e-af98-2faf4e160b5a" />
 
 
 
