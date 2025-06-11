@@ -22,24 +22,26 @@ Original shared sequences for arbitrary diffusion gradient waveforms selectable 
 <img width="900" alt="image" src="https://github.com/user-attachments/assets/f970e26a-faa9-473f-83f6-30e1225b9b9a" />
 
 ```
-# DWITABLE: list of scans/images with shape, direction, and amplitude for each waveform and additional TE and/or DW time/mixing delays.
-# NUM SHAPE1_ID SHAPE2_ID DIR1_ID DIR2_ID AMP1 AMP2 TEDEL DWSEPDEL 
+# DWITABLE: list of scans/images with shape, direction, and amplitude for each waveform and additional TE, TR, and/or DWtime/mixing delays.
+# NUM SHAPE1_ID SHAPE2_ID DIR1_ID DIR2_ID AMP1 AMP2 DWSEPDEL TEDEL TRDEL 
   # b=0
-  1  1   1   1  1   0  0 0 0
+  1  1   1   1  1   0  0 0 0 0
   # different directions, same for shape1,2
-  2  1   1   2  2  80 80 0 0
+  2  1   1   2  2  80 80 0 0 0
   # different directions, different for shape1,2
-  3  1   1   3  1  80 80 0 0
+  3  1   1   3  1  80 80 0 0 0
   # different amplitudes per-shape
-  4  1   1   1  1  20 80 0 0
+  4  1   1   1  1  20 80 0 0 0
   # different shapes, same for shape1,2
-  5  2   2   1  1  80 80 0 0
+  5  2   2   1  1  80 80 0 0 0
   # different shapes, different for shape1,2 (same n points)
-  6  1   2   1  1  80 80  0 0
-  # different TEs
-  7  1   1   1  1  80 80 0.04 0
-  # different diffusion times/separation
-  8  1   1   1  1  80 80  0 0.04
+  6  1   2   1  1  80 80 0 0 0
+  # Additional diffusion separation/mixing time
+  7  1   1   1  1  80 80 0.04 0 0
+  # Additional TE
+  8  1   1   1  1  80 80  0 0.04 0
+  # Additional TR
+  9  1   1   1  1  80 80  0 0.04 0
 ...
 ### DIRECTIONS: list of directions indexed from dwitable
 # DIR_ID X Y Z 
