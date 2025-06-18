@@ -41,7 +41,7 @@ Original shared sequences for arbitrary diffusion gradient waveforms selectable 
   # Additional TE
   8  1   1   1  1  80 80  0 0.04 0
   # Additional TR
-  9  1   1   1  1  80 80  0 0.04 0
+  9  1   1   1  1  80 80  0 0 0.04
 ...
 ### DIRECTIONS: list of directions indexed from dwitable
 # DIR_ID X Y Z 
