@@ -5,6 +5,7 @@ This repository is replacement for the previous [OSF sharing site](https://osf.i
 :bangbang: **To access sequences (private repositories), follow these [instructions](https://github.com/mdbudde/mcw_Preclinical_MRIsequences/discussions/1), or email mdbudde@mcw.edu with your github username and desired sequence version.** :bangbang:
 
 
+<br><br>
 ## DWWave: Diffusion encoding with arbitrary waveforms. 
 Original shared sequences for arbitrary diffusion gradient waveforms selectable through the user interface. This version has been used by 40+ investigators and updated extensively based on user feedback.
 - [mcw_DWEpiWavev7_PV6](https://github.com/mdbudde/mcw_DWEpiWavev7_PV6) 
@@ -15,7 +16,7 @@ Original shared sequences for arbitrary diffusion gradient waveforms selectable 
 - [mcw_DWEpiWavev7_PV360.3.6](https://github.com/mdbudde/mcw_DWEpiWavev7_PV360.3.6)   Programmed/compiles but not fully tested/verified. 
 <img width="550" alt="image" src="https://github.com/user-attachments/assets/44f55daf-435b-4240-b972-82a5387f5f6d" />
 
-
+<br><br>
 ## DWWave: Fully customizable arbitrary diffusion encoding. 
 - [mcw_DWEpiWavev8_PV6](https://github.com/mdbudde/mcw_DWEpiWavev8)
   New variant for control of DW gradient shape, amplitude, direction, separation/mixing, TE, TR **per-image** in a single scan. It has been tested in simulations and is available to users desiring for more flexibility but may require careful evaluation of the acquisition and results. 
@@ -73,17 +74,21 @@ num_samples 1000
 #NUM SHAPE1_ID SHAPE2_ID AMP1 AMP2 ACTUAL_TE ACTUAL_DWSEP S1R00 S1R01 S1R02 S1R11 S1R12 S1R22 S2R00 S2R01 S2R02 S2R11 S2R12 S2R22
 
 ```
+
+<br><br>
 ## Bruker_pulseq: (Under development) Pulseq interpreter. 
 Method based implementation of a pulseq interpretor for paravision. User-selectable .seq file and loading for sequence portability and open source sequences. 
 - [bruker_pulseq_PV6](https://github.com/mdbudde/bruker_pulseq_private)
 <img width="969" height="194" alt="image" src="https://github.com/user-attachments/assets/4c746487-366f-4445-9058-02de2710742d" />
 
 
+<br><br>
 ## DWBIR-RARE: Diffusion prepared Fast Spin Echo (RARE). 
 A B1-insensitive adiabatic module (BIR4 or BIR8) with diffusion preparation under different motion-compensation conditions (M0, M1, M2) is coupled with a fast spin echo readout to minimize motion and susceptibility artifacts. Pulses are included and custom gradient tables can be loaded from a file. [Lee SL et al. MRM 2021](https://pubmed.ncbi.nlm.nih.gov/33720450/)
 - [mcw_dwBIR_RAREv4_PV6](https://github.com/mdbudde/mcw_dwBIR_RAREv4_PV6).
 <img width="550" alt="image" src="https://github.com/user-attachments/assets/26ecc9b5-8551-4ec4-b85b-3402847c09d1" />
 
+<br><br>
 ## vfaRARE: variable flip angle RARE sequence
 High resolution, efficient 3D imaging (Note more recent versions of Paravision include their implementation of this method).
 Distortion-free imaging
@@ -95,6 +100,7 @@ T2 contrast
 
 
 
+<br><br>
 ## pCASL: Pseudocontinuous ASL sequences (Binary version only)
 A RARE (FSE) version is available with an embarrassingly large number of options and settings that were used for optimization and various experiments. Besides the typical settings for labelling settings/durations/delays, it includes Hadamard options, many different background suppression options, triggered labelling/delays, dynamic shimming, multiple references for M0/T1 mapping, vessel and/or spatial suppressions. Only the single-slice 2D setup has been well-tested, although others are available.
 The FLASH version is similar but with fewer options, but also includes multiple repetitions or movie mode, with the same k-space line acquired multiple times after the labeling for dynamic studies. [Meyer B, et al, JCBFM 2021](https://pubmed.ncbi.nlm.nih.gov/33509036/) and [Lee ST et al, NMR Biomed 2024](https://pubmed.ncbi.nlm.nih.gov/38355219/)
