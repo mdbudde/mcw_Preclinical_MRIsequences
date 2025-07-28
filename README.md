@@ -76,7 +76,8 @@ num_samples 1000
 ## Bruker_pulseq: (Under development) Pulseq interpreter. 
 Method based implementation of a pulseq interpretor for paravision. User-selectable .seq file and loading for sequence portability and open source sequences. 
 - [bruker_pulseq_PV6](https://github.com/mdbudde/bruker_pulseq_private)
-<img width="969" height="348" alt="image" src="https://github.com/user-attachments/assets/c4d9a093-9b91-48d4-8b18-9cc2c708cdf0" />
+<img width="969" height="194" alt="image" src="https://github.com/user-attachments/assets/4c746487-366f-4445-9058-02de2710742d" />
+
 
 ## DWBIR-RARE: Diffusion prepared Fast Spin Echo (RARE). 
 A B1-insensitive adiabatic module (BIR4 or BIR8) with diffusion preparation under different motion-compensation conditions (M0, M1, M2) is coupled with a fast spin echo readout to minimize motion and susceptibility artifacts. Pulses are included and custom gradient tables can be loaded from a file. [Lee SL et al. MRM 2021](https://pubmed.ncbi.nlm.nih.gov/33720450/)
