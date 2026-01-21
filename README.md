@@ -94,7 +94,7 @@ High resolution, efficient 3D imaging (Note more recent versions of Paravision i
 Distortion-free imaging
 100+ echoes per excitation.
 T2 contrast
-- Please inquire if interested.
+- [mcw_vfaRARE](https://github.com/mdbudde/mcw_vfaRAREv1)
 <img width="550" alt="image" src="https://github.com/user-attachments/assets/c87d5f32-617c-4d8e-af98-2faf4e160b5a" />
 
 
