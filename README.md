@@ -76,8 +76,8 @@ num_samples 1000
 ```
 
 <br><br>
-## Bruker_pulseq: (Under development) Pulseq interpreter. 
-Method based implementation of a pulseq interpretor for paravision. User-selectable .seq file and loading for sequence portability and open source sequences. 
+## Bruker_pulseq: (Under development) Pulseq interpreter, PV6 and PV-360 branches. 
+Method based implementation of a pulseq interpretor for paravision. User-selectable .seq file and loading for sequence portability and open source sequences.  We welcome any additional users/developers to help build and test the interpreter. We've developed a proof-of-principle version that runs, but need more full-fledged applications to verify performance and build out capabilities.
 - [bruker_pulseq](https://github.com/mdbudde/bruker_pulseq_private)
 <img width="969" height="194" alt="image" src="https://github.com/user-attachments/assets/4c746487-366f-4445-9058-02de2710742d" />
 
